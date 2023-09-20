@@ -13,4 +13,4 @@
   495  cd ../../
   496  mv imagen1.jpg ./mover_imagen1_aqui
   497  tree ./ > estructura.txt
-  498 echo "Hola profe se la rifa" >> estructura.txt
+  498  echo "Hola profe se la rifa" >> estructura.txt
