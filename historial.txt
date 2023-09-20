@@ -1,0 +1,16 @@
+  483  mkdir -p taller_clase_3/archivos/texto_plano taller_clase_3/archivos/pdf taller_clase_3/mover_imagen1_aqui
+  484  cd taller_clase_3
+  485  url=https://raulperez.tieneblog.net/wp-content/uploads/2015/09/tux.jpg
+  486  curl -o imagen1.jpg $url
+  487  cd ./archivos/texto_plano
+  488  touch texto_plano_1.txt
+  489  echo "Texto1" > texto_plano_1.txt
+  490  touch texto_plano_2.txt
+  491  echo "Texto2" > texto_plano_2.txt
+  492  cd ../pdf
+  493  pdf=https://appletree.or.kr/quick_reference_cards/Unix-Linux/Linux%20Command%20Line%20Cheat%20Sheet.pdf
+  494  curl -o explicacion.pdf $pdf
+  495  cd ../../
+  496  mv imagen1.jpg ./mover_imagen1_aqui
+  497  tree ./ > estructura.txt
+  498 echo "Hola profe se la rifa" >> estructura.txt
